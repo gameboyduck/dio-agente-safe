@@ -1,0 +1,6 @@
+# Dependências apenas de desenvolvimento e CI.
+# O código do laboratório usa exclusivamente a biblioteca padrão do Python.
+pytest==9.2.0
+bandit==1.9.4
+pip-audit==2.10.1
+PyYAML==6.0.3

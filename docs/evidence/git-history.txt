@@ -1,0 +1,33 @@
+4edb076 (HEAD -> main) docs: add Ubuntu server security scenario
+5317120 docs: refresh repository history snapshot
+0e9a121 docs: align learning path with the cybersecurity curriculum
+7d13c68 docs: record final local validation evidence
+46a16d0 test: validate structure and document agent behavior
+a65d9bc docs: update project README and validation evidence
+b08775c docs: document assessment workflow and threat modeling
+ad90f66 ci: introduce DevSecOps security checks
+170c544 feat: add security testing and learning path skills
+4ed0110 test: add SQL injection regression tests
+47e8df9 feat: add secure coding laboratory
+2ad7f83 feat: extend agent security persona and skill routing
+3c5f8e1 feat: add vulnerability analysis skill
+74e5103 docs: add cybersecurity knowledge base
+12b1ffe chore: initialize cybersecurity mentor specialization
+5f5e11d (origin/main, origin/HEAD) Merge pull request #13 from digitalinnovationone/docs/dupla-checagem
+93365e2 (origin/docs/dupla-checagem) docs: resolve incoerências e ambiguidades da documentação e das skills
+77fa15b Merge pull request #12 from digitalinnovationone/feat/revisao-e-skill-ai-builder
+d383253 (origin/feat/revisao-e-skill-ai-builder) feat: revisa as skills e a documentação e adiciona a skill ai-builder-path
+82e8615 docs: sincroniza a documentação com as skills existentes
+3751c04 Merge pull request #5 from Cooperation-org/feat/web-search-skill
+a65ccaf docs: registra a skill web-search no AGENTS.md e no índice de skills
+fa48558 feat: adiciona skill de pesquisa na web com You.com para fundamentar respostas
+c424dfc Merge pull request #3 from vdfs89/feat/skill-portfolio-review
+eff4883 feat: add portfolio-review skill
+dcafba0 feat: Regras pra evitar raspagem de páginas
+ceb9dea feat: Melhoria na documentação
+64902f3 fix: Otimização no consumo de tokens da Skills `study-plan`
+6ac67ed fix: Refinamento na Skill `study-plan`
+a6c5bb9 feat: Melhoria nas Skills `study-plan` e `unlock-challenge`
+3580638 feat: Refinamento das Experiencias Educacionais
+75d5d81 feat: Versão Inicial do DIO Agent 🚀
+c1826ac Initial commit

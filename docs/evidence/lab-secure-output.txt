@@ -1,0 +1,14 @@
+[LABORATÓRIO] Versão segura para estudo local. Não é um sistema de autenticação pronto para produção.
+
+1) Login com credenciais sintéticas válidas
+   alice / senha-demo-123 -> True
+
+2) Login com senha incorreta
+   alice / senha-errada     -> False
+
+3) A mesma entrada maliciosa controlada agora é apenas dado
+   usuário: ' OR '1'='1' --
+   resultado -> False
+
+A consulta parametrizada impede que o payload altere a estrutura do SQL.
+O hash com salt impede que a senha seja lida diretamente do banco.

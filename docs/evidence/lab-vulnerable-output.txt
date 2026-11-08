@@ -1,0 +1,14 @@
+[LABORATÓRIO] Código intencionalmente vulnerável. Uso exclusivo para estudo local. Nunca implante em produção.
+
+1) Login com credenciais sintéticas válidas
+   alice / senha-demo-123 -> True
+
+2) Login com senha incorreta
+   alice / senha-errada     -> False
+
+3) Entrada maliciosa controlada: o texto vira parte da consulta
+   usuário: ' OR '1'='1' --
+   resultado -> True
+
+Observe: o passo 3 retorna True sem senha válida.
+Agora compare com app_secure.py e veja o mesmo teste falhar.

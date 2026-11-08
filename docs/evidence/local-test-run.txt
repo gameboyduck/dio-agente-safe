@@ -1,0 +1,66 @@
+python.exe : test_agents_md_keeps_original_identity_and_adds_knowledge 
+(test_skill_structure.ProjectStructureTests.test_agents_md_keeps_original_identity_and_adds_knowledge) ... ok
+No linha:2 caractere:6
++ $u = & $py -m unittest discover -s tests -v 2>&1 | Out-String
++      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_agents_md_...owledge) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_all_project_yaml_files_are_valid 
+(test_skill_structure.ProjectStructureTests.test_all_project_yaml_files_are_valid) ... ok
+test_knowledge_files_cover_required_concepts 
+(test_skill_structure.ProjectStructureTests.test_knowledge_files_cover_required_concepts) ... ok
+test_new_skills_have_human_readable_readme 
+(test_skill_structure.ProjectStructureTests.test_new_skills_have_human_readable_readme) ... ok
+test_new_skills_have_valid_frontmatter 
+(test_skill_structure.ProjectStructureTests.test_new_skills_have_valid_frontmatter) ... ok
+test_original_skills_are_preserved (test_skill_structure.ProjectStructureTests.test_original_skills_are_preserved) ... 
+ok
+test_persona_preserves_original_and_adds_cybersecurity 
+(test_skill_structure.ProjectStructureTests.test_persona_preserves_original_and_adds_cybersecurity) ... ok
+test_readme_credits_original_project (test_skill_structure.ProjectStructureTests.test_readme_credits_original_project) 
+... ok
+test_readme_relative_links_resolve (test_skill_structure.ProjectStructureTests.test_readme_relative_links_resolve) ... 
+ok
+test_report_template_is_complete_in_skill_and_sample 
+(test_skill_structure.ProjectStructureTests.test_report_template_is_complete_in_skill_and_sample) ... ok
+test_required_paths_exist (test_skill_structure.ProjectStructureTests.test_required_paths_exist) ... ok
+test_skills_are_listed_in_readme (test_skill_structure.ProjectStructureTests.test_skills_are_listed_in_readme) ... ok
+test_skills_are_registered_in_agents_md 
+(test_skill_structure.ProjectStructureTests.test_skills_are_registered_in_agents_md) ... ok
+test_ubuntu_scenario_documents_authorization_and_status 
+(test_skill_structure.ProjectStructureTests.test_ubuntu_scenario_documents_authorization_and_status) ... ok
+test_workflow_declares_required_triggers_and_permissions 
+(test_skill_structure.ProjectStructureTests.test_workflow_declares_required_triggers_and_permissions) ... ok
+test_workflow_yaml_is_syntactically_valid 
+(test_skill_structure.ProjectStructureTests.test_workflow_yaml_is_syntactically_valid) ... ok
+test_databases_are_created_in_temporary_directory 
+(test_sql_injection.SqlInjectionLabTests.test_databases_are_created_in_temporary_directory) ... ok
+test_lab_does_not_import_network_libraries 
+(test_sql_injection.SqlInjectionLabTests.test_lab_does_not_import_network_libraries) ... ok
+test_normal_authentication_works_in_both_versions 
+(test_sql_injection.SqlInjectionLabTests.test_normal_authentication_works_in_both_versions) ... ok
+test_secure_source_uses_constant_time_comparison 
+(test_sql_injection.SqlInjectionLabTests.test_secure_source_uses_constant_time_comparison) ... ok
+test_secure_source_uses_parameterized_query 
+(test_sql_injection.SqlInjectionLabTests.test_secure_source_uses_parameterized_query)
+A versÒo segura deve usar marcador ? e argumento separado. ... ok
+test_secure_version_rejects_malicious_input_as_data 
+(test_sql_injection.SqlInjectionLabTests.test_secure_version_rejects_malicious_input_as_data) ... ok
+test_secure_version_stores_hash_not_plaintext 
+(test_sql_injection.SqlInjectionLabTests.test_secure_version_stores_hash_not_plaintext) ... ok
+test_secure_version_uses_unique_salts (test_sql_injection.SqlInjectionLabTests.test_secure_version_uses_unique_salts) 
+... ok
+test_vulnerable_source_builds_sql_with_interpolation 
+(test_sql_injection.SqlInjectionLabTests.test_vulnerable_source_builds_sql_with_interpolation)
+A versÒo vulnerßvel deve atribuir uma f-string com SQL a uma varißvel. ... ok
+test_vulnerable_version_demonstrates_controlled_bypass 
+(test_sql_injection.SqlInjectionLabTests.test_vulnerable_version_demonstrates_controlled_bypass)
+DemonstraþÒo confinada ao banco temporßrio local do laborat¾rio. ... ok
+test_wrong_password_is_rejected_in_both_versions 
+(test_sql_injection.SqlInjectionLabTests.test_wrong_password_is_rejected_in_both_versions) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 2.480s
+
+OK
